@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --dds-black: #080808;
+  --dds-dark: #111111;
+  --dds-white: #f4f2ed;
+  --dds-muted: #a5a5a5;
+  --dds-line: rgba(255, 255, 255, 0.12);
+  --dds-metal: #b8a27a;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  background: var(--dds-black);
+  color: var(--dds-white);
+  font-family: "Inter", sans-serif;
+}
+
+.font-display {
+  font-family: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--dds-white);
+  color: var(--dds-black);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+body.menu-open {
+  overflow: hidden;
+}

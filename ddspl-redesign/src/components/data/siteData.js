@@ -5,10 +5,11 @@ import furniture from "../../assets/images/morework/furniture.webp";
 
 
 export const MAIN_LINKS = [
-  { label: "About", path: "/about" },
+  
   { label: "Products", path: "/products" },
   { label: "Facilities", path: "/facilities" },
   { label: "Contact", path: "/contact" },
+  { label: "About", path: "/about" },
 ];
 
 export const MORE_LINKS = [
